@@ -35,6 +35,7 @@ And to your app/assets/stylesheets/application.css.sass
 
 ## Documentation
 [Getting start with Material Design Lite(MDL)](http://www.getmdl.io/started/index.html)
+
 [GitHub repo](https://github.com/google/material-design-lite)
 
 
