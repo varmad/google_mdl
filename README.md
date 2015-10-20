@@ -34,8 +34,8 @@ And to your app/assets/stylesheets/application.css.sass
 	@import "https://fonts.googleapis.com/icon?family=Material+Icons"
 
 ## Documentation
-	[Getting start with Material Design Lite(MDL)](http://www.getmdl.io/started/index.html)
-	[GitHub repo](https://github.com/google/material-design-lite)
+[Getting start with Material Design Lite(MDL)](http://www.getmdl.io/started/index.html)
+[GitHub repo](https://github.com/google/material-design-lite)
 
 
 
