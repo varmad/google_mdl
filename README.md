@@ -23,20 +23,17 @@ Or install it yourself as:
 ## Usage
 
 Add to your app/assets/javascripts/application.js.cofee
-	```coffee
+	
 	#= require material.min
-	```
 
 And to your app/assets/stylesheets/application.css.sass
-	
-	```css
+
 	/*
 	* ---- your existing includes-----
 	*= require material.min
 	*/
 
 	@import "https://fonts.googleapis.com/icon?family=Material+Icons"
-	```
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
