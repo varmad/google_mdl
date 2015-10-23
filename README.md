@@ -16,6 +16,8 @@ And then run
 
 #### Javascripts
 
+Do one of the following:
+
 To your `application.js` file, add:
 
 ```
