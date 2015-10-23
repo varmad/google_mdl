@@ -23,7 +23,7 @@ To your `application.js` file, add:
 ```
 **OR**
 
-If you're using sass, use coffee script
+If you're using coffee, add 
 ```
 #= require material.min
 ```
@@ -41,7 +41,7 @@ To your `application.css` , add
 
 **OR**
 
-If you're using sass, use sass's
+If you're using sass, add
 [`@import`](https://github.com/rails/sass-rails#important-note)
 in your `application.scss`.
 
