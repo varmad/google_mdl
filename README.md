@@ -4,34 +4,68 @@ Material Design Lite lets you add a [Material Design](http://google.com/design/s
 
 ## Installation
 
-Add this line to your application's Gemfile:
+To your Rails application's Gemfile, add
 
 ```ruby
 gem 'google_mdl'
 ```
 
-And then execute:
+And then run
 
-    $ bundle install
+    $ bundle
 
-Or install it yourself as:
+#### Javascripts
 
-    $ gem install google_mdl
+To your `application.js` file, add:
 
-## Usage
+```
+  //= require material.min
+```
+**OR**
 
-Add to your app/assets/javascripts/application.js.cofee
-	
-	#= require material.min
+If you're using sass, use coffee script
+```
+#= require material.min
+```
+in your `application.js.coffee`.
 
-And to your app/assets/stylesheets/application.css.sass
 
-	/*
-	* ---- your existing includes-----
-	*= require material.min
-	*/
+#### Stylesheets
 
-	@import "https://fonts.googleapis.com/icon?family=Material+Icons"
+Do one of the following:
+
+To your `application.css` , add
+```
+  *= require material.min
+```
+
+**OR**
+
+If you're using sass, use sass's
+[`@import`](https://github.com/rails/sass-rails#important-note)
+in your `application.scss`.
+
+```
+  @import "material.min";
+```
+
+#### Icons
+Material Design Lite uses a font called 'Material Icons'.
+You can either load this font from google, or host it yourself.
+
+##### Load font from google
+Add the following line to your `application.html.erb` view layout file, 
+in the `<head>` section:
+
+```
+  <%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+```
+
+**OR**
+
+##### Host font locally
+Use the `material_icons` gem to [host the font locally](https://github.com/Angelmmiguel/material_icons).
+
 
 ## Documentation
 [Getting start with Material Design Lite(MDL)](http://www.getmdl.io/started/index.html)
